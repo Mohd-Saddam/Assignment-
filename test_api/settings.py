@@ -27,7 +27,7 @@ SECRET_KEY = 'sy+%-a-x7s^^3nceibsybmg$be@zt$!pet4s+m_)6xi=nkqg-!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['activity-live.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['activity-live.herokuapp.com','127.0.0.1','https://activity-live.herokuapp.com/']
 
 
 # Application definition
