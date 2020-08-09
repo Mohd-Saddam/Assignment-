@@ -25,9 +25,9 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = 'sy+%-a-x7s^^3nceibsybmg$be@zt$!pet4s+m_)6xi=nkqg-!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['activity-live.herokuapp.com','127.0.0.1','https://activity-live.herokuapp.com/']
+ALLOWED_HOSTS = ['activity-live.herokuapp.com','127.0.0.1','*']
 
 
 # Application definition
